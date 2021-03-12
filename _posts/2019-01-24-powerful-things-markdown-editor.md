@@ -39,7 +39,7 @@ If you want to get really fancy, you can even add syntax highlighting using Roug
 
 ## Reference lists
 
-The quick brown jumped over the lazy.
+The quick brown jumped over $x$ the lazy.
 
 $$
 \oint f(z) dz = 2 \pi i \sum_k \text{Res} \left[ f, z_k \right]

@@ -37,7 +37,11 @@ If you want to get really fancy, you can even add syntax highlighting using Roug
 
 ## Reference lists
 
-The quick brown jumped over the lazy.
+The quick brown jumped over $x$ the lazy.
+
+$$
+\oint f(z) dz = 2 \pi i \sum_k \text{Res} \left[ f, z_k \right]
+$$
 
 Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference.
 

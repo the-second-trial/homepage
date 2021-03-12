@@ -1,5 +1,6 @@
 # Site
 name: 'The 2nd Trial'
+author: 'Andrea Tino'
 description: 'Learn Mathematics thorugh the problems and questions of the Italian National Exam.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'

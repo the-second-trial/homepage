@@ -36,7 +36,9 @@
     <!-- Navbar -->
     <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="{{ site.baseurl }}/index.html"><strong>{{site.name}}</strong></a>
+        <a class="navbar-brand" href="{{ site.baseurl }}/index.html">
+            <strong>The <span class="color-primary">2nd</span> Trial</strong>
+        </a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -79,12 +81,15 @@
         <div class="container">
         <div class="row align-items-center justify-content-between">
             <div>
-                <span class="navbar-brand mr-2 mb-0"><strong>The 2nd Trial</strong></span>
-                <span><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</script>.</span>
+                <div class="navbar-brand mr-2 mb-0"><strong>{{site.name}}</strong></div>
+                <div>
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+                </div>
 
-                <!--  Github Repo Star Btn-->
-                <a class="text-dark ml-1" target="_blank" href="https://github.com/the-second-trial/the-second-trial"><i class="fab fa-github"></i> See project on Github</a>
-
+                <!--  Github Repo Star Btn -->
+                <div>
+                    <a class="text-dark ml-1" target="_blank" href="https://github.com/the-second-trial/the-second-trial"><i class="fab fa-github"></i> See project on Github</a>
+                </div>
             </div>
             <div>
                 Made by <span class="text-dark font-weight-bold">{{site.author}}</span>.

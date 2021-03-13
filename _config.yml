@@ -4,10 +4,10 @@ author: 'Andrea Tino'
 description: 'Learn Mathematics thorugh the problems and questions of the Italian National Exam.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: '/'
-disqus: 'demowebsite'
+baseurl: ''
+disqus: 'the-2nd-trial'
 email: 'example@gmail.com'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+# newsletter-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
 include: ["_pages"]
 permalink: /:title/
@@ -20,21 +20,21 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
-      name:           Sal
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+    andrea:
+      name:           Andrea
+      site:           https://github.com/andry-tino
+      avatar:         assets/images/avatar1.jpg
+      bio:            "Hi, I am Andrea, the author and creator of The 2nd Trial. I hope you like it and enjoy it!"
+      email:          info@the2ndtrial.org
+      twitter:        https://twitter.com/the2ndtrial
 
-    jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+    guest:
+      name:           Guest
+      site:           https://www.google.com
+      avatar:         assets/images/avatar2.jpg
+      bio:            "Guest account!"
+      email:          guest@gmail.com
+      twitter:        https://twitter.com/none
  
 # Defaults
 defaults:
@@ -44,8 +44,8 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
-      avatar: /assets/images/avatar1.jpg
+      author: guest
+      avatar: assets/images/avatar1.jpg
       
   # all pages
   - scope:

@@ -23,18 +23,15 @@ authors:
     andrea:
       name:           Andrea
       site:           https://github.com/andry-tino
-      avatar:         assets/images/avatar1.jpg
-      bio:            "Hi, I am Andrea, the author and creator of The 2nd Trial. I hope you like it and enjoy it!"
+      avatar:         assets/images/avatar_andrea.png
+      bio:            "Hi, I am Andrea, the author and creator of The 2nd Trial. I write about a lot of different things, feel free to engage with me."
       email:          info@the2ndtrial.org
       twitter:        https://twitter.com/the2ndtrial
 
-    guest:
-      name:           Guest
-      site:           https://www.google.com
-      avatar:         assets/images/avatar2.jpg
-      bio:            "Guest account!"
-      email:          guest@gmail.com
-      twitter:        https://twitter.com/none
+    anonymous:
+      name:           Anonymous
+      avatar:         assets/images/avatar_anonymous.png
+      bio:            "Hi I am an anonymous author. I prefer keeping a veil of mistery around me, so deal with it."
  
 # Defaults
 defaults:
@@ -44,8 +41,8 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: guest
-      avatar: assets/images/avatar1.jpg
+      author: andrea
+      avatar: assets/images/avatar_andrea.png
       
   # all pages
   - scope:
@@ -55,6 +52,8 @@ defaults:
       
 # Syntax
 markdown: kramdown
+kramdown:
+  math_engine: katex
 highlighter: rouge
 
 # Paginate

@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "About Bundler"
-author: andrea
 categories: [ Jekyll ]
 image: assets/images/2.jpg
 ---

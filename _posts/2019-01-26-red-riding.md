@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Red Riding Hood"
-author: andrea
+author: anonymous
 categories: [ Jekyll, tutorial ]
 image: assets/images/3.jpg
 ---

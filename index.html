@@ -6,12 +6,9 @@ pagination:
 description: "Welcome to the official page of The 2nd Trial."
 ---
 
-
 <div class="container">
     
 {% if page.url == "/" %}
-    
-    
     
 <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
 <div class="row remove-site-content-margin">
@@ -154,13 +151,7 @@ description: "Welcome to the official page of The 2nd Trial."
 {% endif %}
 {% endfor %}
 
-
-    
-
-
 {% endif %} <!--endif page url is / -->
-    
-
 
 <!-- Now the rest of the posts with the usual loop but with an offset:4 on the first page so we can skeep the first 4 posts displayed above -->
     
@@ -170,7 +161,6 @@ description: "Welcome to the official page of The 2nd Trial."
         
         <h4 class="font-weight-bold spanborder"><span>All Stories</span></h4>
         
-
         {% for post in paginator.posts %}
         
             {% include main-loop-card.html %}
@@ -178,7 +168,7 @@ description: "Welcome to the official page of The 2nd Trial."
         {% endfor %}
         
         <div class="mt-5">
-         <!-- Pagination links -->
+            <!-- Pagination links -->
             {% if paginator.total_pages > 1 %}
             <ul class="pagination"> 
               {% if paginator.previous_page %}
@@ -208,12 +198,11 @@ description: "Welcome to the official page of The 2nd Trial."
         
     </div>
     
+    <!-- Featured posts - tags: [featured] -->
     <div class="col-md-4">
         {% include sidebar-featured.html %}    
     </div>
     
 </div>
-
-
 
 </div>

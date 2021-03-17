@@ -3,3 +3,10 @@ _site
 .jekyll-metadata
 node_modules
 Gemfile.lock
+*.log
+
+# diagrams
+assets/diagrams/*.ps
+assets/diagrams/*.dvi
+assets/diagrams/*.aux
+assets/diagrams/*.pdf
